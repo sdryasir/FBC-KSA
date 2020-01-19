@@ -1,0 +1,49 @@
+        .services-component {
+            padding: 30px 0;
+            text-align: left;
+            text-align: justify;
+        }
+        
+        .services-component h5 {
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+        
+        .services-component h2 {
+            text-transform: uppercase;
+            font-size: 1.5em;
+        }
+        
+        .services-component .card-title {
+            margin-bottom: 0 !important;
+        }
+        
+        .services-component .card-body {
+            padding: 0.6rem !important;
+            background-color: #143642;
+            color: #ffffff;
+        }
+        
+        .services-component .card-body:hover {
+            background-color: #0F8B8D;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        
+        .services-component .card-body .card-title h5 {
+            margin-bottom: 0 !important;
+        }
+        
+        .services-component .card-body .card-title svg {
+            float: right;
+            color: #EC9A29;
+        }
+        
+        .mb-10 {
+            margin-bottom: 30px !important;
+        }
+        
+        .lead-text {
+            padding: 10px 0;
+            text-align: center;
+        }

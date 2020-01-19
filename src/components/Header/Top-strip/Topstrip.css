@@ -1,0 +1,39 @@
+.top-strip {
+    background-color: #143642;
+}
+
+.top-strip .bg-light {
+    background-color: #143642 !important;
+}
+
+.top-strip .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.top-strip .navbar {
+    padding: 0rem 0rem !important;
+}
+
+.top-strip .navbar-brand {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.top-strip .nav-link {
+    padding: 0.1rem 1rem;
+}
+
+.top-strip ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-strip ul li {
+    display: inline-block;
+}
+
+.top-strip svg {
+    margin-right: 5px;
+    color: #EC9A29;
+}

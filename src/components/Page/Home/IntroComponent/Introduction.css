@@ -1,0 +1,44 @@
+.introduction-component {
+    background-color: #e2e2e2e2;
+    padding: 50px 0;
+}
+
+.introduction-component-inner .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.introduction-component-inner .col,
+.introduction-component-inner .col-12,
+.introduction-component-inner .col-lg-6,
+.introduction-component-inner .col-md-6,
+.introduction-component-inner .col-sm-12 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.introduction-component-inner .intro-img img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 351px;
+    border-radius: 20px;
+}
+
+.introduction-component-inner .intro-desc {
+    text-align: left;
+    padding: 30px;
+}
+
+.introduction-component-inner .intro-desc h6 {
+    margin-bottom: 2px;
+}
+
+.introduction-component-inner .intro-desc h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.introduction-component-inner .intro-desc p {
+    text-align: left;
+}
