@@ -4,6 +4,21 @@
             text-align: justify;
         }
         
+        .services-component .card .img-crd {
+            overflow: hidden;
+            /* [1.2] Hide the overflowing of child elements */
+        }
+        /* [2] Transition property for smooth transformation of images */
+        
+        .services-component .card .img-crd img {
+            transition: transform .5s ease;
+        }
+        /* [3] Finally, transforming the image when container gets hovered */
+        
+        .services-component .card .img-crd:hover img {
+            transform: scale(1.5);
+        }
+        
         .services-component h5 {
             text-transform: uppercase;
             font-size: 1em;
@@ -16,6 +31,8 @@
         
         .services-component .card-title {
             margin-bottom: 0 !important;
+            text-align: left;
+            font-size: 1em;
         }
         
         .services-component .card-body {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './mainnavbar.css';
-import logo from '../../../img/logo192.png';
+import logo from '../../../img/fbc-logo.png';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 export default class Maninavbar extends Component {
@@ -10,7 +10,7 @@ export default class Maninavbar extends Component {
         <Container>
           <Navbar collapseOnSelect expand='lg' variant='light'>
             <Navbar.Brand href='#home'>
-              <img style={{ width: '3rem' }} src={logo} alt='Logo' />
+              <img style={{ width: '9rem' }} src={logo} alt='Logo' />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav'>

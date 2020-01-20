@@ -1,5 +1,39 @@
 .owl-carousel-wrapper .owl-theme .item {
-    height: 100px;
-    background-color: #eeeeee;
-    color: #ffffff;
+    padding: 16px 8px;
+    min-height: 200px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: #EC9A29;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    ;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translate(0%, -50%);
+    outline: none;
+}
+
+.owl-carousel-wrapper .item button {
+    background-color: #EC9A29;
+    border: none;
+}
+
+.lead-text h2 {
+    text-transform: uppercase;
 }

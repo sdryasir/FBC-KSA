@@ -3,7 +3,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './OwlCarouselProjects.css';
-import { Container } from 'react-bootstrap';
+import { Container, Card, Button } from 'react-bootstrap';
 
 export default class OwlCarouselProjects extends Component {
   state = {
@@ -15,10 +15,10 @@ export default class OwlCarouselProjects extends Component {
         items: 1
       },
       600: {
-        items: 3
+        items: 2
       },
       1000: {
-        items: 4
+        items: 2
       }
     }
   };
@@ -26,32 +26,62 @@ export default class OwlCarouselProjects extends Component {
     return (
       <div className='owl-carousel-wrapper'>
         <Container>
+          <div className='lead-text'>
+            <h2>Our Projects</h2>
+            <p>
+              Our dedicated & highly enthusiastic team provides value added
+              services to the Industrial sectors, Construction, Oil & Gas and
+              Petrochemical industry.
+            </p>
+          </div>
           <OwlCarousel
             className='owl-theme'
             loop
             margin={10}
             nav
             dots={false}
-            autoplay
+            autoPlay
             autoplayTimeout={2000}
             responsive={this.state.responsive}>
             <div className='item'>
-              <h4>1</h4>
+              <Card>
+                {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
+                <Card.Body>
+                  <Card.Title>GCP SITE DEVELOPMENT PROJECT - HARADH</Card.Title>
+                  <Card.Text>MOFARREH ALHARBI & PARTNERS</Card.Text>
+                  <Button variant='primary'>Read More</Button>
+                </Card.Body>
+              </Card>
             </div>
             <div className='item'>
-              <h4>2</h4>
+              <Card>
+                {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
+                <Card.Body>
+                  <Card.Title>FADHILI DOWNSTREAM PIPE LINE</Card.Title>
+                  <Card.Text>DACO</Card.Text>
+                  <Button variant='primary'>Read More</Button>
+                </Card.Body>
+              </Card>
             </div>
             <div className='item'>
-              <h4>3</h4>
+              <Card>
+                {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
+                <Card.Body>
+                  <Card.Title>MGS PHASE-II</Card.Title>
+                  <Card.Text>SAQCO</Card.Text>
+                  <Button variant='primary'>Read More</Button>
+                </Card.Body>
+              </Card>
             </div>
             <div className='item'>
-              <h4>4</h4>
-            </div>
-            <div className='item'>
-              <h4>5</h4>
-            </div>
-            <div className='item'>
-              <h4>6</h4>
+              <Card>
+                {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
+                <Card.Body>
+                  <Card.Title>MGS PHASE-III</Card.Title>
+                  <Card.Text>SAQCO</Card.Text>
+                  <Button variant='primary'>Read More</Button>
+                </Card.Body>
+              </Card>
             </div>
           </OwlCarousel>
         </Container>

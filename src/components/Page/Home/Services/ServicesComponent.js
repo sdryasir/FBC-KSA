@@ -27,29 +27,23 @@ export default class ServicesComponent extends Component {
               </p>
             </div>
             <Row>
-              <Col xs={12} sm={12} md={4} lg={4} className='mb-10'>
+              <Col xs={12} sm={12} md={3} lg={3} className='mb-10'>
                 <Card>
-                  <Card.Img variant='top' src={service1} />
+                  <div className='img-crd'>
+                    <Card.Img variant='top' src={service1} />
+                  </div>
                   <Card.Body>
                     <Card.Title>
-                      Abrasive Blasting <FiArrowRight />
+                      Abrasive Blasting & Coating <FiArrowRight />
                     </Card.Title>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={12} md={4} lg={4} className='mb-10'>
+              <Col xs={12} sm={12} md={3} lg={3} className='mb-10'>
                 <Card>
-                  <Card.Img variant='top' src={service2} />
-                  <Card.Body>
-                    <Card.Title>
-                      Abrasive Coating <FiArrowRight />
-                    </Card.Title>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={12} sm={12} md={4} lg={4} className='mb-10'>
-                <Card>
-                  <Card.Img variant='top' src={service3} />
+                  <div className='img-crd'>
+                    <Card.Img variant='top' src={service2} />
+                  </div>
                   <Card.Body>
                     <Card.Title>
                       Exterior/Interior Painting <FiArrowRight />
@@ -57,9 +51,11 @@ export default class ServicesComponent extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={12} md={4} lg={4} className='mb-10'>
+              <Col xs={12} sm={12} md={3} lg={3} className='mb-10'>
                 <Card>
-                  <Card.Img variant='top' src={service4} />
+                  <div className='img-crd'>
+                    <Card.Img variant='top' src={service3} />
+                  </div>
                   <Card.Body>
                     <Card.Title>
                       Floor Coating <FiArrowRight />
@@ -67,22 +63,14 @@ export default class ServicesComponent extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={12} md={4} lg={4} className='mb-10'>
+              <Col xs={12} sm={12} md={3} lg={3} className='mb-10'>
                 <Card>
-                  <Card.Img variant='top' src={service5} />
+                  <div className='img-crd'>
+                    <Card.Img variant='top' src={service4} />
+                  </div>
                   <Card.Body>
                     <Card.Title>
-                      Fire Proofing <FiArrowRight />
-                    </Card.Title>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={12} sm={12} md={4} lg={4} className='mb-10'>
-                <Card>
-                  <Card.Img variant='top' src={service6} />
-                  <Card.Body>
-                    <Card.Title>
-                      Water Proofing <FiArrowRight />
+                      Fire & Water Proofing <FiArrowRight />
                     </Card.Title>
                   </Card.Body>
                 </Card>

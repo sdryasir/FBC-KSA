@@ -1,0 +1,15 @@
+.footer-wrapper {
+    background-color: #143642;
+    padding: 40px 0;
+    text-align: left;
+    color: #ffff;
+}
+
+.footer-wrapper h5 {
+    font-size: 1rem;
+}
+
+.footer-wrapper button {
+    border: none;
+    background-color: #EC9A29;
+}

@@ -16,9 +16,6 @@ export default class HomeCarousel extends Component {
           <Carousel.Item>
             <img className='d-block w-100' src={Car2} alt='Third slide' />
           </Carousel.Item>
-          <Carousel.Item>
-            <img className='d-block w-100' src={Car3} alt='Third slide' />
-          </Carousel.Item>
         </Carousel>
       </div>
     );
