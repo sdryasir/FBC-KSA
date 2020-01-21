@@ -23,6 +23,46 @@ h5 {
     pointer-events: none;
 }
 
+.inner-page-head {
+    position: relative;
+}
+
+.innerpage-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.innerpage-title h5 {
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.inner-page-head img {
+    width: 100%;
+}
+
+.inner-page-content {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.right-aside {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link a {
+    color: #143642;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link a:hover {
+    color: #EC9A29;
+    text-decoration: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
@@ -41,7 +81,7 @@ h5 {
 }
 
 .App-link {
-    color: #61dafb;
+    color: #143642;
 }
 
 @keyframes App-logo-spin {
